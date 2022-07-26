@@ -1,0 +1,46 @@
+* { margin: 0; padding: 0; text-decoration: none; list-style: none;}
+#wrap { width: 1440px; margin: 0 auto; }
+
+header { 
+    width: 100%; height: 80px; 
+    display: flex; align-items: center; justify-content: space-between;
+}
+header h1 { margin-left: 70px;}
+nav { width: 400px; margin-right: 70px;}
+nav ul { display: flex; align-items: center; justify-content: space-between; }
+
+#s1 {
+    background-image: url(/서울트레블_제공파일/imgs/visual.png); background-repeat: no-repeat; background-size: cover;
+    width: 100%; height: 780px;
+}
+#s1 p {
+    display: flex; justify-content: center; text-align: center; padding-top: 50px;
+}
+#s1 h1 { 
+    display: flex; justify-content: center; font-size: 120px; color: navy;
+}
+#s1 .img { 
+    display: flex; justify-content: space-between; padding: 100px;
+}
+
+#s2 { 
+    width: 100%; height: 750px; padding: 70px 170px;
+}
+#s2 .info {
+    width: 70%; display: column; align-items: center; justify-content: center;
+}
+#s2 .info1 {
+   width: 800px; height: 200px; float: right;
+}
+.info1 h3 { float: left; padding-left: 250px; padding-top: 5px;}
+.info1 h1 { color: blue;}
+.info1 p { direction: rtl;}
+.info1 .img { margin-left: 400px; margin-top: 10px;}
+.info1 img { margin-left: 20px;}
+
+.info2 {
+    background-image: url(/서울트레블_제공파일/imgs/content_img1.png); width: 540px; height: 350px;
+}
+.info2 h1 { color: white; }
+.info2 h3 { color: white; }
+.info2 p { color: white;}
